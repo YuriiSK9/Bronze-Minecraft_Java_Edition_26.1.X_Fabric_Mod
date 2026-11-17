@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "com.yurii.bronze.mixin.client",
+    "compatibilityLevel": "JAVA_25",
+    "client": [
+        "EntityRenderersMixin",
+        "LayerDefinitionsMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "bronze:story/smelt_copper",
+    "criteria": {
+        "copper_pickaxe": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_pickaxe"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.copper_tools.description"
+        },
+        "icon": {
+            "id": "minecraft:copper_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.story.copper_tools.title"
+        }
+    },
+    "requirements": [
+        [
+            "copper_pickaxe"
+        ]
+    ]
+}

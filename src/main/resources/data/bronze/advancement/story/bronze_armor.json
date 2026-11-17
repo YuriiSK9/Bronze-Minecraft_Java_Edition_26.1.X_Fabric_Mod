@@ -1,0 +1,64 @@
+{
+    "parent": "bronze:story/craft_bronze",
+    "criteria": {
+        "bronze_boots": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_boots"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "bronze_chestplate": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_chestplate"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "bronze_helmet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_helmet"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "bronze_leggings": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_leggings"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.bronze_armor.description"
+        },
+        "icon": {
+            "id": "bronze:bronze_chestplate"
+        },
+        "title": {
+            "translate": "advancements.story.bronze_armor.title"
+        }
+    },
+    "requirements": [
+        [
+            "bronze_helmet",
+            "bronze_chestplate",
+            "bronze_leggings",
+            "bronze_boots"
+        ]
+    ]
+}

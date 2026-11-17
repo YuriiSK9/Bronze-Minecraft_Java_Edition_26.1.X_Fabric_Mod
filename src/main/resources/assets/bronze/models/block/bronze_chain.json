@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_chain",
+    "textures": {
+        "texture": "bronze:block/bronze_chain"
+    }
+}

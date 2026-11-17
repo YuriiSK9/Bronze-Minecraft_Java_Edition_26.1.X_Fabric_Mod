@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/template_bars_post",
+    "textures": {
+        "bars": "bronze:block/bronze_bars",
+        "edge": "bronze:block/bronze_bars"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "required": true,
+    "package": "com.yurii.bronze.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "CreativeModeTabsMixin",
+        "OreVeinifierMixin",
+        "MobMixin",
+        "CarvedPumpkinBlockMixin",
+        "DefaultAttributesMixin",
+        "NearestAttackableTargetGoalMixin",
+        "ProjectileWeaponItemMixin",
+        "CrossbowItemMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}

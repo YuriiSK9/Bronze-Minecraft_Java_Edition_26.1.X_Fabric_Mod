@@ -1,0 +1,31 @@
+{
+    "parent": "bronze:story/copper_tools",
+    "criteria": {
+        "bronze": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_ingot"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.craft_bronze.description"
+        },
+        "icon": {
+            "id": "bronze:bronze_ingot"
+        },
+        "title": {
+            "translate": "advancements.story.craft_bronze.title"
+        }
+    },
+    "requirements": [
+        [
+            "bronze"
+        ]
+    ]
+}

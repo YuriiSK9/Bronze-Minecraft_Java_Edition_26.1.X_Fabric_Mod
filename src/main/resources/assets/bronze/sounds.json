@@ -1,0 +1,159 @@
+{
+    "block.bronze.step": {
+        "sounds": [
+            "block/copper/step1",
+            "block/copper/step2",
+            "block/copper/step3",
+            "block/copper/step4",
+            "block/copper/step5",
+            "block/copper/step6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "block.bronze.place": {
+        "sounds": [
+            "block/copper/break1",
+            "block/copper/break2",
+            "block/copper/break3",
+            "block/copper/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+    "block.bronze.hit": {
+        "sounds": [
+            "block/copper/step1",
+            "block/copper/step2",
+            "block/copper/step3",
+            "block/copper/step4",
+            "block/copper/step5",
+            "block/copper/step6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+    "block.bronze.break": {
+        "sounds": [
+            "block/copper/break1",
+            "block/copper/break2",
+            "block/copper/break3",
+            "block/copper/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+    "block.bronze.fall": {
+        "sounds": [
+            "block/copper/step1",
+            "block/copper/step2",
+            "block/copper/step3",
+            "block/copper/step4",
+            "block/copper/step5",
+            "block/copper/step6"
+        ],
+        "subtitle": "subtitles.block.generic.fall"
+    },
+    "block.bronze_door.close": {
+        "sounds": [
+            "block/copper_door/toggle1",
+            "block/copper_door/toggle2",
+            "block/copper_door/toggle3"
+        ],
+        "subtitle": "subtitles.block.door.toggle"
+    },
+    "block.bronze_door.open": {
+        "sounds": [
+            "block/copper_door/toggle1",
+            "block/copper_door/toggle2",
+            {
+                "name": "block/copper_door/toggle2",
+                "pitch": 1.1
+            },
+            "block/copper_door/toggle3",
+            {
+                "name": "block/copper_door/toggle3",
+                "pitch": 1.1
+            }
+        ],
+        "subtitle": "subtitles.block.door.toggle"
+    },
+    "block.bronze_trapdoor.close": {
+        "sounds": [
+            "block/copper_trapdoor/toggle1",
+            "block/copper_trapdoor/toggle2",
+            "block/copper_trapdoor/toggle3",
+            "block/copper_trapdoor/toggle4"
+        ],
+        "subtitle": "subtitles.block.trapdoor.close"
+    },
+    "block.bronze_trapdoor.open": {
+        "sounds": [
+            "block/copper_trapdoor/toggle1",
+            "block/copper_trapdoor/toggle2",
+            "block/copper_trapdoor/toggle3",
+            "block/copper_trapdoor/toggle4"
+        ],
+        "subtitle": "subtitles.block.trapdoor.open"
+    },
+    "item.armor.equip_bronze": {
+        "sounds": [
+            "item/armor/equip_copper1",
+            "item/armor/equip_copper2",
+            "item/armor/equip_copper3",
+            "item/armor/equip_copper4",
+            "item/armor/equip_copper5",
+            "item/armor/equip_copper6"
+        ],
+        "subtitle": "subtitles.item.armor.equip_bronze"
+    },
+    "entity.bronze_golem.step": {
+        "sounds": [
+            "mob/irongolem/walk1",
+            "mob/irongolem/walk2",
+            "mob/irongolem/walk3",
+            "mob/irongolem/walk4"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "entity.bronze_golem.repair": {
+        "sounds": [
+            "mob/irongolem/repair"
+        ],
+        "subtitle": "subtitles.entity.bronze_golem.repair"
+    },
+    "entity.bronze_golem.hurt": {
+        "sounds": [
+            "mob/irongolem/hit1",
+            "mob/irongolem/hit2",
+            "mob/irongolem/hit3",
+            "mob/irongolem/hit4"
+        ],
+        "subtitle": "subtitles.entity.bronze_golem.hurt"
+    },
+    "entity.bronze_golem.damage": {
+        "sounds": [
+            {
+                "name": "mob/irongolem/damage1",
+                "volume": 0.8
+            },
+            {
+                "name": "mob/irongolem/damage1",
+                "pitch": 0.8,
+                "volume": 0.8
+            },
+            {
+                "name": "mob/irongolem/damage2",
+                "volume": 0.8
+            },
+            {
+                "name": "mob/irongolem/damage2",
+                "pitch": 0.8,
+                "volume": 0.8
+            }
+        ],
+        "subtitle": "subtitles.entity.bronze_golem.damage"
+    },
+    "entity.bronze_golem.death": {
+        "sounds": [
+            "mob/irongolem/death"
+        ],
+        "subtitle": "subtitles.entity.bronze_golem.death"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=x": {
+            "model": "bronze:block/bronze_chain",
+            "x": 90,
+            "y": 90
+        },
+        "axis=y": {
+            "model": "bronze:block/bronze_chain"
+        },
+        "axis=z": {
+            "model": "bronze:block/bronze_chain",
+            "x": 90
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "bronze_ingot",
+    "key": {
+        "#": "minecraft:copper_nugget",
+        "@": "bronze:tin_nugget"
+    },
+    "pattern": [
+        "###",
+        "#@#",
+        "###"
+    ],
+    "result": {
+        "id": "bronze:bronze_ingot"
+    }
+}

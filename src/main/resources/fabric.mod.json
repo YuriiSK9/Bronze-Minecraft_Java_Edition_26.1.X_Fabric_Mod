@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "bronze",
+    "version": "${version}",
+    "name": "Bronze",
+    "authors": [
+        "Yurii"
+    ],
+    "license": "CC0-1.0",
+    "icon": "assets/bronze/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.yurii.bronze.Bronze"
+        ]
+    },
+    "mixins": [
+        "bronze.mixins.json",
+        {
+            "config": "bronze.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.0",
+        "minecraft": "~26.1",
+        "java": ">=25"
+    }
+}

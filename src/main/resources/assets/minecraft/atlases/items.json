@@ -1,0 +1,24 @@
+{
+    "sources": [
+        {
+            "type": "minecraft:directory",
+            "prefix": "item/",
+            "source": "item"
+        },
+        {
+            "type": "minecraft:paletted_permutations",
+            "palette_key": "minecraft:trims/color_palettes/trim_palette",
+            "permutations": {
+                "tin": "bronze:trims/color_palettes/tin",
+                "bronze": "bronze:trims/color_palettes/bronze",
+                "bronze_darker": "bronze:trims/color_palettes/bronze_darker"
+            },
+            "textures": [
+                "minecraft:trims/items/helmet_trim",
+                "minecraft:trims/items/chestplate_trim",
+                "minecraft:trims/items/leggings_trim",
+                "minecraft:trims/items/boots_trim"
+            ]
+        }
+    ]
+}

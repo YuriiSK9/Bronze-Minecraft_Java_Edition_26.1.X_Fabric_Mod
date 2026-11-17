@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "values": [
+        "#minecraft:needs_diamond_tool",
+        "#minecraft:needs_iron_tool",
+        "#bronze:needs_bronze_tool",
+        "#bronze:needs_copper_tool",
+        "#minecraft:needs_stone_tool"
+    ]
+}

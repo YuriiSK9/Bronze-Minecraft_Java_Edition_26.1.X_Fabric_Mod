@@ -1,0 +1,31 @@
+{
+    "parent": "bronze:story/craft_bronze",
+    "criteria": {
+        "bronze_pickaxe": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bronze:bronze_pickaxe"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.bronze_tools.description"
+        },
+        "icon": {
+            "id": "bronze:bronze_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.story.bronze_tools.title"
+        }
+    },
+    "requirements": [
+        [
+            "bronze_pickaxe"
+        ]
+    ]
+}
